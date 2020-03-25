@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+
+  todo:
+    image: andreyandrey/todo
+    ports:
+      - '8080:8080'
